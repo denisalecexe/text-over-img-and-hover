@@ -1,0 +1,27 @@
+/* text over image */
+.wrap {
+  position: relative;
+}
+
+.caption {
+  /* place at bottom */
+  position: absolute;
+  width: 380px;
+  bottom: 0;
+  left: 0;
+  /* color & dimension */
+  padding: 10px;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* show caption whit hover */
+.caption {
+  display: none;
+}
+
+.wrap:hover .caption{
+  display: block;
+}
